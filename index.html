@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Les séries</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+
+</head>
+<body>
+<main>
+    <header><h1>"Les séries tv"</h1></header>
+    <div class="container">
+        <div class="search">
+            <input id="search"  class="form-control" placeholder="rechercher votre série ici.." name="q" type="search">
+        </div>
+        <div class="raw">
+            <div class="col-6">
+                <h2>Classement par genre</h2>
+                <div id="liste_genre"></div>
+            </div>
+            <div class="col-6">
+                <h2>Films en vrac</h2>
+               <div class="card w-75">
+                  <div id="liste_film"></div>
+               </div>
+            </div>
+        </div>
+
+    </div>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</main>
+</body>
+</html>
